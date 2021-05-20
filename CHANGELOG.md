@@ -1,3 +1,25 @@
+## [1.49.5](https://github.com/openupm/openupm/compare/1.49.4...1.49.5) (2021-05-16)
+
+
+### Bug Fixes
+
+* **data:** remove package names are not well-scoped (close [#1521](https://github.com/openupm/openupm/issues/1521)) ([c4f4072](https://github.com/openupm/openupm/commit/c4f407208fea9796f11e78d2b7c4b2b53e89a422))
+
+## [1.49.4](https://github.com/openupm/openupm/compare/1.49.3...1.49.4) (2021-05-09)
+
+
+### Bug Fixes
+
+* **website:** add an extra warning for packages with com.unity or unity text (refs [#1755](https://github.com/openupm/openupm/issues/1755)). ([24a5079](https://github.com/openupm/openupm/commit/24a50793d157b377a3347c5111e331b9fe1069fa))
+* **website:** add disabled code snippet to verify Unity registry on package submission form (refs [#1755](https://github.com/openupm/openupm/issues/1755)). ([3e17669](https://github.com/openupm/openupm/commit/3e17669ed24786ce0a8111f95905f46fdb0a9aa0))
+
+## [1.49.3](https://github.com/openupm/openupm/compare/1.49.2...1.49.3) (2021-05-03)
+
+
+### Bug Fixes
+
+* **web:** no longer warns org.nuget.* dependency missing (refs [#1976](https://github.com/openupm/openupm/issues/1976)) ([27d75ed](https://github.com/openupm/openupm/commit/27d75ed52e0335f540835ee532b1350f556533ee))
+
 ## [1.49.2](https://github.com/openupm/openupm/compare/1.49.1...1.49.2) (2021-04-25)
 
 

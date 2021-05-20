@@ -7,6 +7,7 @@ authors: Author(s)
 back: Back
 backers: Backers
 badge: Badge
+branch: Branch
 build: Build
 build-pipelines: Build Pipelines
 china-region-desc: Leave empty if you're unfamiliar with Chinese translation.
@@ -38,11 +39,14 @@ featured-image-desc: 'Notice: if the repository has a'
 featured-image-desc-2: ', will use that instead.'
 field-none: None
 fill-the-package-form: Fill the package form
-fill-the-package-form-desc: Please provide information about the UPM package. Learn more at
+fill-the-package-form-desc: >-
+  Please provide information about the UPM package. The package must conform to
+  our package criteria. Learn more at
 footer-copyright: Copyright © 2019-2020 Favo Yang
 forked-from: forked from
 get: Get
 git-deps-missing: Please install the Git dependency manually.
+git-deps-nuget: The package may exist in the uplinked UnityNuGet registry.
 git-deps-replaced: The Git dependency can be replaced by a version available on OpenUPM.
 git-tag: Git tag
 git-tag-ignore-pattern: Git tag ignore pattern
@@ -96,8 +100,13 @@ name: Name
 name-at-version: Name@version
 needles-package-installer: Needle's package installer
 note: Note
+package-already-exists-in-unity-registry: The package already exists in the Unity registry.
 package-installer: package installer
 package-name: Package name
+package-name-com-unity: Packages with the com.unity scope requires a manual review.
+package-name-contains-unity: >-
+  The package name contains text "unity" should respect to the trademarks rules
+  (just a friendly reminder).
 package-updates: Package Updates
 packages: Packages
 path-of-package-json: Path of package.json
@@ -149,11 +158,11 @@ repository-placeholder: owner/project-name
 show-more: Show more
 social-image: social image
 sort-by: Sort by
-sponsor-service: Service Sponsors 🖥️
 sponsor-bronze: Bronze Sponsors 🥉
 sponsor-diamond: Diamond Sponsors 💎
 sponsor-featured: Featured Sponsors
 sponsor-gold: Gold Sponsors 🥇
+sponsor-service: Service Sponsors 🖥️
 sponsor-silver: Silver Sponsors 🥈
 sponsors: Sponsors
 star: Star
@@ -184,9 +193,12 @@ verify-package: Verify package
 version: Version
 versions: Versions
 via: via
-wait-for-ci-pipelines: Wait for CI pipelines to complete (10-15 mins)
+wait-for-ci-pipelines: Wait for CI pipelines to complete (20-30 mins)
 wait-for-ci-pipelines-step-1-safe: You can visit the package at
 wait-for-ci-pipelines-step-2-safe: >-
   You can view the build result at the <b>version history</b> and <b>build
   issues</b> sections.
+wait-for-ci-pipelines-step-3-safe: >-
+  <b>Notice that first-time contributor requires maintainer's approval which may
+  cost more time.</b>
 zhihu-blog: Zhihu Articles

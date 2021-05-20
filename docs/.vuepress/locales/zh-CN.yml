@@ -13,6 +13,7 @@ authors: 作者
 back: 后退
 backers: 资助者
 badge: 徽章
+branch: 分支
 build: 构建
 build-pipelines: 构建管线
 camera: 摄像机
@@ -48,12 +49,13 @@ featured-image-desc: 注意：如果代码仓库包含一个
 featured-image-desc-2: ，会使用该图片。
 field-none: 无
 fill-the-package-form: 填写软件包表单
-fill-the-package-form-desc: 请提供此UPM软件包的基本信息，或参考
+fill-the-package-form-desc: 请提供此UPM软件包的基本信息。该软件包必须符合我们的软件包标准，请参考
 footer-copyright: 版权所有 © 2019-2020 Favo Yang
 forked-from: 分叉自
 frameworks: 框架
 get: 获取
 git-deps-missing: 请手动安装这个缺失的Git依赖。
+git-deps-nuget: 该程序包可能存在于uplink的UnityNuGet仓库中。
 git-deps-replaced: 这个Git依赖可以被替换为一个已在OpenUPM上发布的同名软件包。
 git-tag: Git 标签
 git-tag-ignore-pattern: Git标签忽略正则表达式
@@ -107,9 +109,12 @@ name-at-version: 名称@版本
 needles-package-installer: Needle的软件包辅助安装器
 network: 网络
 note: 备注
+package-already-exists-in-unity-registry: 该软件包已存在于Unity软件仓库中。
 package-installer: 软件包辅助安装器
 package-management: 软件包管理
 package-name: 软件包名称
+package-name-com-unity: 名称含有com.unity的软件包需要人工审核。
+package-name-contains-unity: 软件包名称含有“untiy”的应符合其商标权益（仅是友好提示）。
 package-updates: 软件包更新
 packages: 软件包
 painting: 绘画
@@ -169,11 +174,11 @@ services: 服务
 show-more: 更多
 social-image: 社交网络图片
 sort-by: 排序
-sponsor-service: 服务赞助商 🖥️
 sponsor-bronze: 铜牌赞助商 🥉
 sponsor-diamond: 钻石赞助商 💎
 sponsor-featured: 主要赞助商
 sponsor-gold: 金牌赞助商 🥇
+sponsor-service: 服务赞助商 🖥️
 sponsor-silver: 银牌赞助商 🥈
 sponsors: 赞助商
 sprite-management: 精灵管理
@@ -212,5 +217,6 @@ visual-scripting: 可视化脚本
 wait-for-ci-pipelines: 等待持续集成管线完成它的工作，通常需要10-15分钟。
 wait-for-ci-pipelines-step-1-safe: 你可以访问软件包页面：
 wait-for-ci-pipelines-step-2-safe: 亦可通过其查看已发布的【<b>版本</b>】和【<b>构建管线</b>】。
+wait-for-ci-pipelines-step-3-safe: <b>注意：首次提交的贡献者需要等待管理员手动批准，可能会花费更多的时间。</b>
 weibo-share: 微博分享
 zhihu-blog: 知乎专栏
